@@ -13,15 +13,14 @@ public class DeclaracionDeVariables : MonoBehaviour
     void Start()
     {
         cantidadAlumnos = 24;
-        magnitudTerremoto = 9.3f;
-        nombreAlumno = "Jeronimo";
+        magnitudTerremoto = 9,3;
+        nombreAlumno = "Lucas";
         compuHabilitada = false;
 
         Debug.Log(cantidadAlumnos);
         Debug.Log(magnitudTerremoto);
         Debug.Log(nombreAlumno);
         Debug.Log(compuHabilitada);
-
     }
 
     // Update is called once per frame
